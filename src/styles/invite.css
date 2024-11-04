@@ -1,0 +1,75 @@
+.invite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../images/furniture.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.invite-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+    position: absolute;
+    width: 100%;
+    background-color: #333;
+    padding: 5rem;
+}
+.invite-navbar img{
+    width: 10rem;
+    filter: invert(1);
+}
+.invite-navbar p{
+    color: gray;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.invite-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    width: 60rem;
+    padding: 5rem;
+    margin: 0 2.8rem;
+    border-radius: 1rem;
+    background-color: rgba(51, 51, 51, 0.8); 
+}
+.invite-box h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+}
+.invite-box p{
+    color: rgb(135, 132, 132);
+    font-family: sans-serif;
+}
+.invite-box a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.invite-box input{
+    background: rgba(37, 37, 37, 0.5);
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 4rem;
+    color: white;
+}
+.invite-box input::placeholder{
+    color: white;
+}
+.invite-box button{
+    border: 1px solid white;
+    background: transparent;
+    cursor: pointer;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 4rem;
+    color: white;
+}
